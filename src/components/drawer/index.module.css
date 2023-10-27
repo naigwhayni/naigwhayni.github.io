@@ -1,5 +1,5 @@
 .drawer {
-  @apply fixed top-0 left-0 w-0 h-screen bg-gray-100/50 overflow-hidden transition-all duration-150 ease-in-out;
+  @apply fixed top-0 left-0 w-0 h-screen bg-gray-100/90 overflow-hidden transition-all duration-150 ease-in-out;
 }
 .open {
   @apply w-screen;

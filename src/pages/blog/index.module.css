@@ -1,5 +1,5 @@
 .mdx {
-  @apply px-12 leading-loose text-slate-800;
+  @apply px-6 md:px-12 leading-loose text-slate-800;
 }
 .mdx h1,
 h2,

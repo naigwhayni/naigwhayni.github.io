@@ -4,7 +4,6 @@ import { RxCalendar } from "react-icons/rx"
 import { item } from "./index.module.css"
 
 const Summary = ({ data }) => {
-    console.log(data)
     return (
         <div className={'p-8'} >
             {data.map(node => (
@@ -16,11 +15,13 @@ const Summary = ({ data }) => {
                             </span>
                         </h1>
                     </Link>
-                    <h2 className="py-2 flex items-center gap-2 text-sm">
+                    <h2 className="my-2 flex items-center gap-2 text-sm">
                         <RxCalendar />
                         {node.frontmatter.date}
                     </h2>
-                    <p className="text-sm font-medium py-2">{node.excerpt}</p>
+                    <p className="text-sm font-medium py-2 text-slate-800 leading-loose">
+                        {node.excerpt}
+                    </p>
                     <Link to={`/blog/${node.frontmatter.slug}`}>
                         <span className="text-lg py-4 hover:cursor-pointer hover:underline ">
                             阅读全文...

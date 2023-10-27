@@ -36,7 +36,7 @@ const SideBar = (props) => {
                         alt="#"
                         className={'w-0 rounded-full md:w-24'}
                     />
-                    <span className="block p-4 text-sm">何以解忧</span>
+                    <span className="block p-4 text-lg md:text-sm">何以解忧</span>
                 </div>
             </Link>
             <div className={'flex flex-col gap-4'}>
