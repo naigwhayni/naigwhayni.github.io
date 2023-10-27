@@ -1,0 +1,23 @@
+.container {
+  @apply h-screen;
+  background-color: rgba(217, 145, 68, 0.2);
+}
+.main {
+  @apply flex;
+  height: calc(100% - 3rem);
+}
+@media (min-width: 768px) {
+  .main {
+    height: calc(100% - 8rem);
+  }
+}
+@media (min-width: 1024px) {
+  .main {
+    height: calc(100% - 10rem);
+  }
+}
+
+
+.content {
+  @apply flex-auto overflow-y-auto lg:mt-12 mt-0;
+}

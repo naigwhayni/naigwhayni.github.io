@@ -1,0 +1,7 @@
+.footer {
+  @apply w-full mt-4 py-2 rounded-md shadow-sm shadow-gray-500/25;
+}
+
+.footer-content {
+  @apply flex flex-row items-center justify-center gap-2 text-xs;
+}

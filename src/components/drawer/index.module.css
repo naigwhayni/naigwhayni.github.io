@@ -1,0 +1,9 @@
+.drawer {
+  @apply fixed top-0 left-0 w-0 h-screen bg-gray-100/50 overflow-hidden transition-all duration-150 ease-in-out;
+}
+.open {
+  @apply w-screen;
+}
+.drawer-content {
+  @apply h-full mr-24 bg-orange-200 px-6;
+}

@@ -1,0 +1,36 @@
+.mdx {
+  @apply px-12 leading-loose text-slate-800;
+}
+.mdx h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply font-bold my-6;
+}
+.mdx h1 {
+  @apply text-xl;
+}
+.mdx h2 {
+  @apply text-lg;
+}
+.mdx h3 {
+  @apply text-base;
+}
+.mdx h4 {
+  @apply text-sm;
+}
+.mdx h5 {
+  @apply text-xs;
+}
+
+.mdx ul li {
+  @apply list-disc;
+}
+.mdx ol li {
+  @apply list-decimal;
+}
+.mdx li > ol,
+li > ul {
+  @apply ml-4;
+}

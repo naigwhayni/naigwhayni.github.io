@@ -1,0 +1,7 @@
+.container{
+    border: 2px solid red;
+    display: inline-block;
+}
+.list-item{
+    @apply flex text-lg items-center gap-2 hover:cursor-pointer hover:text-orange-300 rounded-md px-2;
+}

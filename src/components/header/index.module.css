@@ -1,0 +1,14 @@
+.header {
+  @apply h-12 lg:h-32 md:h-24;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .header {
+    clip-path: path("M 0 128 C 600 60, 800,180 1800,80 V 0 H 0 Z");
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    clip-path: path("M 0 88 C 300 30, 400,120 768,60 V 0 H 0 Z");
+  }
+}
