@@ -23,7 +23,10 @@ h5 {
 .mdx h5 {
   @apply text-xs;
 }
-
+.mdx ul,
+ol {
+  @apply pl-4;
+}
 .mdx ul li {
   @apply list-disc;
 }
