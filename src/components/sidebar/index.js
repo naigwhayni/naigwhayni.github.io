@@ -30,7 +30,7 @@ const SideBar = (props) => {
     return (
         <div className={'md:w-48 lg:p-12 md:p-8 overflow-hidden'}>
             <Link to="/">
-                <div className={'mb-8 hover:cursor-pointer'}>
+                <div className={'mb-8 hover:cursor-pointer shadow-sm'}>
                     <StaticImage
                         src={'../../images/mimi.jpg'}
                         alt="#"
