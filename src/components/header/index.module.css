@@ -1,5 +1,5 @@
 .header {
-  @apply h-12 lg:h-32 md:h-24;
+  @apply h-12 lg:h-32 md:h-24 shadow-sm;
   overflow: hidden;
 }
 @media (min-width: 1024px) {
