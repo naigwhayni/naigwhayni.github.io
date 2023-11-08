@@ -23,7 +23,7 @@ const Summary = ({ data }) => {
                         {node.excerpt}
                     </p>
                     <Link to={`/blog/${node.frontmatter.slug}`}>
-                        <span className="text-lg py-4 hover:cursor-pointer hover:underline ">
+                        <span className="text-lg py-4 md:hover:cursor-pointer hover:underline ">
                             阅读全文...
                         </span>
                     </Link>

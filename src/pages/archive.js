@@ -6,7 +6,7 @@ import { useSiteBlogData } from "../hooks/use-site-blog-data";
 import { RxBookmark, RxCalendar } from "react-icons/rx";
 import { Link } from "gatsby"
 
-const tagStyle = "px-2 py-1 hover:cursor-pointer rounded-md text-sm hover:text-orange-400"
+const tagStyle = "px-2 py-1 md:hover:cursor-pointer rounded-md text-sm md:hover:text-orange-400"
 
 const Archive = (props) => {
     const data = useSiteBlogData()
@@ -37,13 +37,13 @@ const Archive = (props) => {
                             const selectedStyle =
                                 item === selected ? "bg-orange-200" : "bg-red-50"
                             return (
-                                <span
+                                <button
                                     key={item}
                                     onClick={handleTagClick(item)}
                                     className={tagStyle + " " + selectedStyle}
                                 >
                                     {`${item} (${tags[item].count})`}
-                                </span>
+                                </button>
                             )
                         })}
                 </nav>
